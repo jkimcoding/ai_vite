@@ -1,5 +1,5 @@
 
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenerativeAI } from "./node_modules/@google/generative-ai";
 
 const apiKey = import.meta.env.VITE_API;
 
