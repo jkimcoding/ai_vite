@@ -1,7 +1,7 @@
 
 //import { GoogleGenerativeAI } from "./node_modules/@google/generative-ai";
 import { GoogleGenerativeAI } from "https://cdn.skypack.dev/@google/generative-ai";
-console.log(import.meta.env.VITE_API);
+console.log(import.meta.env);
 const apiKey = import.meta.env.VITE_API;
 
 const genAI = new GoogleGenerativeAI(apiKey);
